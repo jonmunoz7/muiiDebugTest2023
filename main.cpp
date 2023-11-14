@@ -56,7 +56,7 @@ int main() {
   }
 }
 
-// Esta función calcula el valor RMS
+// Esta función calcula el valor RMS __
 float calcularRMS(uint16_t *datos, int longitud) {
   float rms = 0;
   float datoV;
