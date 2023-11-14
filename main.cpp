@@ -29,7 +29,7 @@ int main() {
 
   timer.reset();
   timer.start();
-  resultado = calcularRMS(datos, longitudTrama); //hoagfdfgvf
+  resultado = calcularRMS(datos, longitudTrama); //hoagfdfgvf gdfgcf
   timer.stop();
   printf("\n****El valor Vrms es %f calculado en %lld us ****\n\n", resultado,
          timer.elapsed_time().count());
