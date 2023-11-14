@@ -29,7 +29,7 @@ int main() {
 
   timer.reset();
   timer.start();
-  resultado = calcularRMS(datos, longitudTrama); //hoagfdfgvf gdfgcf
+  resultado = calcularRMS(datos, longitudTrama);
   timer.stop();
   printf("\n****El valor Vrms es %f calculado en %lld us ****\n\n", resultado,
          timer.elapsed_time().count());
@@ -56,7 +56,7 @@ int main() {
   }
 }
 
-// Esta función calcula el valor RMS __
+// Esta función calcula el valor RMS
 float calcularRMS(uint16_t *datos, int longitud) {
   float rms = 0;
   float datoV;
